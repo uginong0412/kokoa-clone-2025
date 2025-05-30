@@ -1,0 +1,47 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 20px 50px;
+    box-sizing: border-box; /* padding으로인해 boxsize 변동을 막아줌 */
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__link {
+    color: #2e363e;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.nav__notification {
+    background-color: tomato;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    /* display: block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+}
+.nav__dot {
+    background-color: tomato;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    position: absolute;
+    left: 45px
+}
+/* .nav__link {
+    color: inherit;
+    text-decoration: none;
+} */
+ /* 어떤 링크도 밑줄이 없고 색상이 검정인걸 원한다면 reset.css에 입력 */
