@@ -1,0 +1,30 @@
+.alt-header {
+    padding: var(--horizontal--space);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: fixed;
+    width: 100%;
+}
+.alt-header__column {
+    flex: 1; /*부모 공간 남을 경우 모든 자식들이 같은 비율로 남는 공간을 가진다.*/
+}
+.alt-header__title {
+    font-size: 28px;
+    font-weight: 600;
+}
+/* .alt-header__column:first-child {
+    margin-right: auto;
+} */
+.alt-header__column:nth-child(2) {
+    text-align: center;
+}
+.alt-header__column:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+.alt-header__column span:last-child {
+    margin-left: 20px;
+}

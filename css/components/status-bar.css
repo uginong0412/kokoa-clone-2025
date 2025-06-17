@@ -1,13 +1,13 @@
 .status-bar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0px 3px;
     position: fixed;
     top: 0;
     width: 100%;
 }
 .status-bar__column {
-    width: 33%;
+    flex: 1;
     white-space: nowrap;
 }
 .status-bar__column:nth-child(1) {
